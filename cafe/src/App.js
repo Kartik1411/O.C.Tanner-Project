@@ -10,7 +10,7 @@ function App() {
 	return (
 		<Switch>
 			<Route path='/'> 
-				<LandingPageLayout>
+				<LandingPageLayout message="Welcome to Hard Rock Cafe">
 					<HomePage />
 				</LandingPageLayout>
 			</Route>
