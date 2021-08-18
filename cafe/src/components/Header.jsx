@@ -32,7 +32,7 @@ function Header() {
                 `}>
                     <ul className="md:flex-row md:flex font-semibold mb-3">
                         <li className="list-none md:mr-5">
-                            <Link className="flex w-full text-base uppercase hover:text-gray-800 transition duration-300 cursor-pointer pt-2.5 px-2.5">
+                            <Link className="flex w-full text-base uppercase hover:text-gray-600 transition duration-300 cursor-pointer pt-2.5 px-2.5">
                                 offers
                             </Link>
                         </li>
@@ -44,13 +44,13 @@ function Header() {
                         </li> */}
 
                         <li className="list-none md:mr-5">
-                            <Link className="flex w-full text-base uppercase hover:text-gray-800 transition duration-300 cursor-pointer pt-2.5 px-2.5">
+                            <Link className="flex w-full text-base uppercase hover:text-gray-600 transition duration-300 cursor-pointer pt-2.5 px-2.5">
                                 Menu 
                             </Link>
                         </li>
 
                         <li className="list-none md:mr-5">
-                            <Link className="flex w-full text-base uppercase hover:text-gray-800 transition duration-300 cursor-pointer pt-2.5 px-2.5">
+                            <Link className="flex w-full text-base uppercase hover:text-gray-600 transition duration-300 cursor-pointer pt-2.5 px-2.5">
                                 Book Table
                             </Link>
                         </li>

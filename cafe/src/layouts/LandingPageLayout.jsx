@@ -2,6 +2,10 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+
+import Home from '../pages/Home';
+
+// hero image
 import Hero from '../assets/hero2.jpg';
 
 function LandingPageLayout(props) {
@@ -22,7 +26,7 @@ function LandingPageLayout(props) {
             </div>
 
             <div className="w-full max-w-7xl mx-auto">
-
+                <Home />
             </div>
 
             <Footer />
