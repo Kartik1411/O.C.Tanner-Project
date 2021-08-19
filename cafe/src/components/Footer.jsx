@@ -10,8 +10,8 @@ function Footer() {
 
             <div className=" max-w-7xl mx-auto py-6 px-4 text-center">
                 <div className="flex flex-col ">
-                    <Link className=" w-full text-base hover:text-gray-600 font-semibold transition duration-300 cursor-pointer pt-2.5 px-2.5">Contact</Link>
                     <Link className=" w-full text-base hover:text-gray-600 font-semibold transition duration-300 cursor-pointer pt-2.5 px-2.5">About</Link>
+                    <Link className=" w-full text-base hover:text-gray-600 font-semibold transition duration-300 cursor-pointer pt-2.5 px-2.5">Contact</Link>
                     <Link className=" w-full text-base hover:text-gray-600 font-semibold transition duration-300 cursor-pointer pt-2.5 px-2.5">Privacy Policies</Link>
                 </div>
             </div>
