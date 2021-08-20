@@ -6,6 +6,7 @@ import LandingPageLayout from './layouts/LandingPageLayout';
 // importing pages
 import BookTable from './pages/BookTable';
 import Offers from './pages/Offers';
+import Menu from './pages/Menu';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				</Route>
 				<Route path='/book-table' exact component={BookTable} /> 
 				<Route path='/offers' exact component={Offers} />
+				<Route path='/menu' exact component={Menu} />
 			</Switch>
 		</Router>
 	);
