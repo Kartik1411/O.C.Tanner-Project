@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import Logo from '../assets/logo.jpg';
 import { Link } from 'react-router-dom';
 import NotesIcon from '@material-ui/icons/Notes';
-// import AssignmentIcon from '@material-ui/icons/Assignment';
-// import BookIcon from '@material-ui/icons/Book';
 
 function Header() {
 
@@ -35,6 +33,11 @@ function Header() {
                     md:static md:w-auto md:flex-row md:flex
                 `}>
                     <ul className="md:flex-row md:flex font-semibold mb-3">
+                        <li className="list-none md:mr-5">
+                            <Link to='/' className="flex w-full text-base uppercase hover:text-gray-600 transition duration-300 cursor-pointer pt-2.5 px-2.5">
+                                Home
+                            </Link>
+                        </li>
                         <li className="list-none md:mr-5">
                             <Link to='/offers' className="flex w-full text-base uppercase hover:text-gray-600 transition duration-300 cursor-pointer pt-2.5 px-2.5">
                                 offers

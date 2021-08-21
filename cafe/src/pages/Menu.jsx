@@ -29,7 +29,7 @@ function Menu() {
                 <Header />  
             </div>
 
-            <Carousel enableAutoPlay autoPlaySpeed="5000" className="p-10" breakPoints={breakPoints}>
+            <Carousel enableAutoPlay autoPlaySpeed="5000" className="p-2 mt-5 md:p-10 h-52 md:h-4/6" breakPoints={breakPoints}>
                 <CardCarousel src={BombaySandwich}/>
                 <CardCarousel src={EggNoodles} />
                 <CardCarousel src={FrenchSoup}/>
@@ -39,18 +39,30 @@ function Menu() {
 
             <hr />
 
-            <div className="h-screen pt-5 bg-gray-50" >
-                <h1 className="text-2xl font-bold text-center">Menu</h1>
+            <div className="min-h-full pt-5 bg-gray-50" >
+                <h1 className="text-2xl font-bold text-center text-red-900">Menu</h1>
                 <h1 className="text-xl font-semibold mt-5 p-5 text-center">Our menu’s full of the good stuff. Whatever your diet or preferences, there’s enough choice for everyone.</h1>
 
                 <div>
-                    <h1 className="text-red-900 text-bold text-3xl my-10 ml-5 md:ml-28">Breakfast</h1>
-                    <div className="md:grid md:grid-flow-row md:grid-cols-2 md:grid-rows-4 md:gap-2 md:ml-20 text-center ">
-                        <MenuItems title="1. Instant Oats Porridge" />
-                        <MenuItems title="2. Instant Oats Porridge" />
-                        <MenuItems title="3. Instant Oats Porridge" />
-                        <MenuItems title="4. Instant Oats Porridge" />
+                    {/* <h1 className="text-red-900 text-bold text-3xl my-10 ml-5 md:ml-24">Breakfast</h1> */}
+                    <div className="md:grid md:grid-flow-row md:grid-cols-2 md:grid-rows-2 flex flex-col">
+                        <MenuItems src={BombaySandwich} />
+                        <MenuItems src={EggNoodles} />
+                        <MenuItems src={EggNoodles} />
+                        <MenuItems src={FrenchToast} />
                     </div>
+                    
+                    <div className=" bg-gray-100 md:grid md:grid-flow-row md:grid-cols-2 md:grid-rows-2 flex flex-col">
+                        <MenuItems src={BombaySandwich} />
+                        <MenuItems src={EggNoodles} />
+                        <MenuItems src={EggNoodles} />
+                        <MenuItems src={FrenchToast} />
+                    </div>
+                    
+                    <div className="h-20 mt-16">
+                        <p className="text-xl font-semibold text-red-900 text-center">And Many More to Come...</p>
+                    </div>
+                    
                 </div>
 
             </div>

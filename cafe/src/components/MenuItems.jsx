@@ -2,11 +2,10 @@ import React from "react";
 
 function MenuItems(props) {
     return (
-        <div >
-            <div className="mt-1 md:ml-10">
-				<h2 className="text-semibold text-xl md:w-52">{props.title}</h2>
-            </div>
-		</div>
+        <div className="w-full p-5 md:h-1/2 md:p-10 flex justify-center text-center">
+            <img className="w-3/5 h-72" src={props.src} alt="food" />
+        </div>
+		
     );
 }
 

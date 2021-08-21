@@ -2,7 +2,7 @@ import React from "react";
 
 function OfferCards(props) {
     return (
-        <div className="border-2 rounded-md p-5 m-5 text-center">
+        <div className="border-2 rounded-md p-5 m-5 text-center bg-gray-50">
             <div className="mt-1">
 				<h2 className="text-semibold text-xl">{props.title}</h2>
             </div>

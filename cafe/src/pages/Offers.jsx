@@ -23,7 +23,7 @@ function Offers() {
                 </div>
             </div>
 
-            <h1 className="font-bold text-2xl text-center mt-6 mb-6">Available Offers for You</h1>
+            <h1 className="font-bold text-2xl text-center mt-6 mb-6 text-red-900">Available Offers for You</h1>
 			<div className="md:grid md:grid-flow-row md:grid-cols-3 md:grid-rows-4 md:gap-2 flex flex-col">
                 <OfferCards title="Get 20% discount using Kotak Bank Cards"/>
                 <OfferCards title="Get 20% discount using Kotak Bank Cards"/>
