@@ -6,7 +6,7 @@ import Chef from '../assets/chef.jpg'
 function About() {
 
     return (
-        <div className="min-h-full bg-gray-100 font-body">
+        <div className="min-h-full bg-gray-100 font-serif">
             <div className="flex flex-col">
                 <Header />  
             </div>

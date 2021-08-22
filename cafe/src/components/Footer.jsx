@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
-        <footer className="bg-gray-200">
+        <footer className="bg-gray-200 font-serif">
             <div className=" max-w-7xl mx-auto py-8 px-4 md:px-44 text-center">
                 <h4 className="font-bold text-2xl text-red-900"> Eat. Enjoy. Repeat. </h4> 
             </div>

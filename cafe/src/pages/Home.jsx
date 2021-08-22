@@ -12,7 +12,7 @@ import SpiciestBurger from '../assets/spiciest-burger.jpg';
 
 function HomePage() {
     return (
-        <>
+        <div className="font-serif">
             <h1 className="font-bold text-3xl mt-4 text-center text-red-900">Our Most Popular Dishes</h1>
             <div className="md:grid md:grid-flow-row md:grid-cols-3 md:grid-rows-2 flex flex-col">
                 <Card
@@ -46,7 +46,7 @@ function HomePage() {
                     desc = "This is most loved sandwich as its taste is just ummm!!"
                 />
             </div>
-        </>
+        </div>
     )
 }
 

@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 function Contact() {
 
     return (
-        <div className="min-h-full bg-gray-100 font-body">
+        <div className="min-h-full bg-gray-100 font-serif">
             <div className="flex flex-col">
                 <Header />  
             </div>
@@ -14,7 +14,7 @@ function Contact() {
                 <h1 className="text-4xl text-red-900 font-bold mt-10">Contact Us</h1>
             </div>
 
-            <div className=" bg-gray-100 mx-2 flex flex-col mt-24 md:mt-20 md:mb-20">
+            <div className=" bg-gray-100 mx-2 flex flex-col mt-14 md:mt-20 md:mb-20">
                 <div className="max-w-md w-full mx-auto mt-4 p-5 rounded-md bg-gray-200 border-gray-300">
                     <form action="" className="space-y-6">
                         <div>
@@ -37,9 +37,9 @@ function Contact() {
                 </div>
 
                 <div className="text-center mt-12 mb-4">
-                    <h2 className="p-2 text-semibold text-xl">Address : NH-2, Mathura-Delhi Highway, Mathura</h2>
-                    <h2 className="p-2 text-semibold text-xl">Phone Number : 9999999999 </h2>
-                    <h2 className="p-2 text-semibold text-xl">Email : hardrockcafe@gmail.com</h2>
+                    <h2 className="p-2 font-semibold text-xl"> <span className="text-red-900" > Address </span>: NH-2, Mathura-Delhi Highway, Mathura </h2>
+                    <h2 className="p-2 font-semibold text-xl"> <span className="text-red-900" > Phone Number </span> : 9999999999 </h2>
+                    <h2 className="p-2 font-semibold text-xl"> <span className="text-red-900" > Email  </span>: hardrockcafe@gmail.com</h2>
                 </div>
 
             </div>
