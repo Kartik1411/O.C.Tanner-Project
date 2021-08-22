@@ -28,24 +28,23 @@ function BookTable() {
                     <form action="" className="space-y-6">
                         <div>
                             <label htmlFor="" className="text-sm font-bold text-gray-600 block">Full Name</label>
-                            <input type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                            <input type="text" placeholder="Enter Your Name" className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
                         <div>
                             <label htmlFor="" className="text-sm font-bold text-gray-600 block">Phone Number</label>
-                            <input type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                            <input type="tel" placeholder="Enter Your Phone Number"
+                                className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
                         <div>
-                            <label htmlFor="" className="text-sm font-bold text-gray-600 block">Date <span className="float-right"><DateRangeIcon /></span></label>
-                            <DatePicker selected={selectedDate} onChange={ date => setSelectedDate(date) } 
+                            <label htmlFor=""  className="text-sm font-bold text-gray-600 block">Date <span className="float-right"><DateRangeIcon /></span></label>
+                            <DatePicker placeholder="Enter Date" selected={selectedDate} onChange={ date => setSelectedDate(date) } 
                                 minDate={new Date()}
                                 isClearable
                                 className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
                         <div>
-                            <label htmlFor="" className="text-sm font-bold text-gray-600 block">Time <span className="float-right"><AccessTimeIcon /></span></label>
-                            <DatePicker selected={selectedDate} onChange={ date => setSelectedDate(date) } 
-                                minDate={new Date()}
-                                isClearable
+                            <label htmlFor=""  className="text-sm font-bold text-gray-600 block">Time <span className="float-right"><AccessTimeIcon /></span></label>
+                            <input type="tel" placeholder="Enter Time ( HH:MM PM/AM )"
                                 className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
 

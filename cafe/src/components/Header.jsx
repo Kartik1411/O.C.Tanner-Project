@@ -12,7 +12,7 @@ function Header() {
     }
 
     return (
-        <header className="bg-gray-200 relative font-serif">
+        <header className="bg-gray-200 relative font-serif ">
 
             <div className="max-w-7xl mx-auto flex items-center justify-between p-3">
                 <Link to="/">

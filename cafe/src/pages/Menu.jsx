@@ -5,8 +5,8 @@ import Footer from '../components/Footer';
 import CardCarousel from '../components/CardCarousel';
 import Carousel from 'react-elastic-carousel';
 
-import MenuItems from '../components/MenuItems'
 
+import MenuItems from '../components/MenuItems'
 import BombaySandwich from '../assets/bombay-sandwich.jpg';
 import EggNoodles from '../assets/egg-noodles.jpg';
 import FrenchSoup from '../assets/french-soup.jpg';
@@ -24,6 +24,7 @@ function Menu() {
     ]
 
     return (
+        
         <div className="min-h-full bg-gray-100 font-serif">
             <div className="flex flex-col">
                 <Header />  

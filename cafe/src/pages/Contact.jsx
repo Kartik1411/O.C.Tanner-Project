@@ -19,15 +19,15 @@ function Contact() {
                     <form action="" className="space-y-6">
                         <div>
                             <label htmlFor="" className="text-sm font-bold text-gray-600 block">Full Name</label>
-                            <input type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                            <input placeholder="Your Name" type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
                         <div>
                             <label htmlFor="" className="text-sm font-bold text-gray-600 block">Email Address</label>
-                            <input type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                            <input placeholder="Email" type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
                         <div>
                             <label htmlFor="" className="text-sm font-bold text-gray-600 block">Comments</label>
-                            <input type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
+                            <input placeholder="Comments" type="text" className="w-full p-2 border border-gray-300 rounded mt-1" />
                         </div>
 
                         <div className="text-center">

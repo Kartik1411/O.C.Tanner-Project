@@ -7,6 +7,7 @@ import OfferCards from '../components/OfferCards'
 import Offer from '../assets/offer.jpg';
 
 function Offers() {
+
     return (
         <div className="min-h-full bg-gray-100 font-serif">
             <div className="flex flex-col">
@@ -38,6 +39,7 @@ function Offers() {
                 <OfferCards title="Get 20% discount using Kotak Bank Cards"/>
                 <OfferCards title="Get 40% discount using Axis Bank MyZone Credit Cards"/>
             </div>
+
 
             <Footer />
         </div>
